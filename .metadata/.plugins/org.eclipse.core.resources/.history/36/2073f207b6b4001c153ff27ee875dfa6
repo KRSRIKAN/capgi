@@ -1,0 +1,21 @@
+package com.cap.day8;
+
+import java.util.ArrayList;
+
+public class MyStreamApi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> list=ArrayList<Integer>();
+		list.add(25);
+		list.add(-5);
+		list.add(35);
+		list.add(-45);
+		list.add(-5);
+		list.add(125);
+		long count=list.stream().filter(e->e<0).map(nmu->num*2).sorted(Collections.reveseOde()).distinct().count();
+		
+System.out.pintln(count);
+	}
+
+}

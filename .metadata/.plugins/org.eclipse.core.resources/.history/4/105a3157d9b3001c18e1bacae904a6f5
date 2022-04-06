@@ -1,0 +1,17 @@
+
+public class Srikanth {
+
+	
+
+	int id;
+	int name;
+	int rn;
+	public Srikanth(int id, int name, int rn) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.rn = rn;
+	}
+	
+
+}

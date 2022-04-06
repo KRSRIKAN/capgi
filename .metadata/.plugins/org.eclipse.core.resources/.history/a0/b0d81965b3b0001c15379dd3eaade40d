@@ -1,0 +1,83 @@
+package com.cap.np1;
+
+import java.util.Objects;
+
+class employee{
+	int id;
+	String name;
+	String colour;
+	public employee(int id, String name, String colour) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.colour = colour;
+	}
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getColour() {
+		return colour;
+	}
+
+	public void setColour(String colour) {
+		this.colour = colour;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(colour, id, name);
+	}
+	@Override
+	public boolean equals(Object obj) {
+		employee e1=(employee) obj;
+		if(this.getId()==e1.getId()) {
+			return true;
+		}
+		else {
+			return false;
+		}
+		if(this.getName()==e1.getName()) {
+			return true;
+		}
+		else {
+			return false;
+		}
+		if(this.getColour()==e1.getColour()) {
+			return true;
+		}
+		else {
+			return false;
+		}
+		
+		//return this.id==id && this.name==name && this.colour==colour;
+	}
+	
+	
+}
+
+public class ObjEqu {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		employee e1=new employee(12,"srikanth","red");
+		employee e2=new employee(12,"srikanth12","red33");
+		employee e3=new employee(12,"srikanth","red");
+		System.out.println(e1.equals(e2));
+
+	}
+
+}

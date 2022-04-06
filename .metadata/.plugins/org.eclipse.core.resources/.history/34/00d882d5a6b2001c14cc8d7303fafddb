@@ -1,0 +1,49 @@
+package com.cap.np1;
+class Srikanth{
+	int id;
+	String name;
+	String cinema;
+	public Srikanth(int id,String name,String cinema) {
+		this.id=id;
+		this.name=name;
+		this.cinema=cinema;
+	}
+	public void setId(int id) {
+		this.id=id;
+		
+	}
+	public void setName(String name) {
+		this.name=name;
+		
+	}
+	public void setCinema(String Cinema) {
+		this.cinema=cinema;
+		
+	}
+	public int getId() {
+		return id;
+	}
+	public String getName() {
+		return name;
+	}
+	public String getCinema() {
+		return cinema;
+	}
+	public String toString() {
+		return "Srikanth[id="+id+",name="+name+",cinema="+cinema+"]";
+	}
+	
+}
+
+public class MyCompaAr {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Srikanth sri=new Srikanth(1,"srikanth","rrr");
+		
+		Srikanth sri1=new Srikanth(2,"srikanth","adhipurush");
+		System.out.println(sri);
+		System.out.println(sri1);
+	}
+
+}

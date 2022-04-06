@@ -1,0 +1,24 @@
+package com.cap.np1;
+
+	
+
+
+public class Human extends P1 {
+	String empno;
+	
+
+	public Human(String empno) {
+		super(String name,int age);
+		this.empno = empno;
+	}
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		 Human kk=new Human("dgdg",12,"dfv");
+		// kk.P11();
+		 System.out.println(kk.empno);
+	}
+
+}

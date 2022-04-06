@@ -1,0 +1,14 @@
+package com.cap.np1;
+
+public class P1 {
+
+	
+		String name;
+		int age;
+		public void P11() {
+			//super();
+			System.out.println("gdg");
+		}
+	}
+
+

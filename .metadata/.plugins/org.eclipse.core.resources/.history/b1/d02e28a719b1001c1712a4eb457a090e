@@ -1,0 +1,15 @@
+package com.cap.np1;
+
+public class Exceptino {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+int arr[]= {1,2,3,5};
+//int arr1[]=new arr1[5];
+// arr1[2]=3;//
+ 
+arr[3]=20;
+ System.out.println(arr[4]);
+}
+}

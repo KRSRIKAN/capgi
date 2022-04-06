@@ -1,0 +1,10 @@
+package com.capg.day6;
+
+public class MyGenerc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

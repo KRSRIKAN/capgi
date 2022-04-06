@@ -1,0 +1,17 @@
+import java.util.TreeMap;
+
+public class MyTreeMap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TreeMap<Integer,String> tm=new TreeMap<Integer,String>();
+		tm.put(3,"gjg");
+		tm.put(4, "kggj");
+		tm.put(5, "jhgj");
+		tm.put(6, "jg22j");
+		System.out.println(tm);
+		
+
+	}
+
+}

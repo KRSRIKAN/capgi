@@ -1,0 +1,22 @@
+package com.capg.day5;
+
+public class SB {
+
+	public static void main(java.lang.String[] args) {
+		// TODO Auto-generated method stub
+		SB s="srikanth";
+		SB s1=new SB("srikanth");
+		SB s3="srikanth";
+		SB s4="ganesh";
+		if(s.equalIgnoreCase(s1)) {
+			System.out.println("true");
+		}
+		else {
+			System.out.println("false");
+			
+		}
+		
+
+	}
+
+}

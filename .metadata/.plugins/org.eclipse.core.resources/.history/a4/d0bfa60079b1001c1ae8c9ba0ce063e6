@@ -1,0 +1,33 @@
+package com.capg.day6;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class MyArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> ls= new ArrayList<Integer>();
+		ls.add(405);
+		ls.add(20);
+		ls.add(30);
+		Collections.sort(ls);
+		
+		System.out.println(ls);
+		ArrayList<Double> ds= new ArrayList<Double>();
+		ds.add(15.0);
+		ds.add(20.0);
+		ds.add(30.0);
+		System.out.println(ds);
+		
+		ArrayList<String> ss= new ArrayList<String>();
+		ss.add("srikanth");
+		ss.add("kristam");
+		ss.add("employee");
+		System.out.println(ss);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,48 @@
+package com.cap.np1;
+class A1{
+	int a ;
+	public A1( ){
+		super();
+	
+		//this.a=a;
+		System.out.println(" this from a");
+		
+		
+	}
+	class B1 extends A1{
+		int b;
+		public B1(){
+			
+		//this.b=b;
+			
+			System.out.println(" this from b");
+		}
+			
+		}
+		class D1 extends B1{
+			int c =40;
+			public D1(){
+			
+			
+				
+				System.out.println(" this from a");
+				
+				
+			}
+
+
+	
+}
+
+public class MyInherit {
+
+	public static void main(String[] args){
+
+		// TODO Auto-generated method stub
+		D1 kk =new D1();
+		System.out.println(kk.c);
+		
+
+	}
+
+}

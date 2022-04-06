@@ -1,0 +1,34 @@
+package com.cap.np1;
+
+import java.util.Objects;
+
+class employee{
+	int id;
+	String name;
+	String colour;
+	public employee(int id, String name, String colour) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.colour = colour;
+	}
+	@Override
+	public int hashCode() {
+		return Objects.hash(colour, id, name);
+	}
+	@Override
+	public boolean equals(Object obj) {
+		employee e1=(employee) obj;
+		return this.id=id && this.name=name && this.colour=colour;
+	}
+	
+}
+
+public class ObjEqu {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

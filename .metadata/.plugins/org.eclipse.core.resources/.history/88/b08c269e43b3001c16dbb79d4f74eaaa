@@ -1,0 +1,31 @@
+package com.cap.np1;
+class A{
+	public A() {
+		System.out.println(" from A");
+	}
+}
+
+class A1 extends A{
+	public A1(int i) {
+		System.out.println(" from A1");
+	}
+}
+class B extends A{
+	public B() {
+		System.out.println(" from B");
+	}
+
+
+
+public class MyInh1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		B b=new B();
+		System.out.println(b);
+		
+		
+
+	}
+
+}}

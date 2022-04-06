@@ -1,0 +1,22 @@
+package com.cap.day3;
+class R1 extends Exception{
+	public void m1() {
+		int c=10/0;
+	}	
+}
+
+public class Exception {
+	
+
+	public static void main(String[] args)  throws ArithematicException {
+		// TODO Auto-generated method stub
+		try {
+			R1 r=new R1();
+			r.m1();
+		}
+catch (Exception e) {
+	System.out.println("exception handled");
+}
+	}
+
+}

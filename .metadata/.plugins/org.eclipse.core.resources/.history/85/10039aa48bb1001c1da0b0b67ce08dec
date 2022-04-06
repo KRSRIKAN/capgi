@@ -1,0 +1,20 @@
+package com.capg.day6;
+class Employee<a,b,c>{
+	a int;
+	b String;
+	c String;
+	public Employee(b string) {
+		super();
+		String = string;
+	}
+	
+}
+
+public class LinkedArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

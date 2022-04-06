@@ -1,0 +1,86 @@
+package com.cap.np1;
+
+import java.util.Objects;
+
+class Srikanth{
+	int id;
+	String name;
+	String cinema;
+	public Srikanth(int id,String name,String cinema) {
+		this.id=id;
+		this.name=name;
+		this.cinema=cinema;
+	}
+	public void setId(int id) {
+		this.id=id;
+		
+	}
+	public void setName(String name) {
+		this.name=name;
+		
+	}
+	public void setCinema(String Cinema) {
+		this.cinema=cinema;
+		
+	}
+	public int getId() {
+		return id;
+	}
+	public String getName() {
+		return name;
+	}
+	public String getCinema() {
+		return cinema;
+	}
+	public String toString() {
+		return "Srikanth[id="+id+",name="+name+",cinema="+cinema+"]";
+		//return this.id=,this.name=,this.cinema=cinema;
+	}
+	public boolean Equals(Object obj) {
+		if(this==obj) {
+			return true;
+		}
+		if(obj==null) {
+			return false;
+		}
+		if(getClass()!=obj.getClass()) {
+			return false;
+		}
+		
+		Srikanth s1=(Srikanth) obj;
+		return Objects.equals(name,s1.name) && id==s1.id && Objects.equals(cinema,s1.cinema);
+		
+		
+	}
+/*	@Override
+	public int hashCode() {
+		return Objects.hash(cinema, id, name);
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Srikanth other = (Srikanth) obj;
+		return Objects.equals(cinema, other.cinema) && id == other.id && Objects.equals(name, other.name);
+	}
+	*/
+	
+}
+
+public class MyCompaAr {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Srikanth sri=new Srikanth(1,"srikanth","rrr");
+		
+		Srikanth sri1=new Srikanth(2,"srikanth","adhipurush");
+		System.out.println(sri);
+		System.out.println(sri1);
+		System.out.println(sri.Equals(sri1));
+	}
+
+}

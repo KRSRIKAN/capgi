@@ -1,0 +1,17 @@
+package com.capg.day6;
+import java.util.HashSet;
+
+
+public class MyHahset {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        HashSet<Integer> set=new HashSet<Integer>();
+        set.add(95);
+        set.add(100);
+        set.add(120);
+        set.add(144);
+        System.out.println(set);
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.cap.np1;
+
+import java.util.Stack;
+
+public class MyStack1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Stack<Integer> st=new Stack<Integer>();
+		st.push(20);
+		st.add(25);
+		 System.out.println(st);
+		 System.out.println(st.peek());
+		 st.set(1,55 );
+		 System.out.println(st.add(66));
+		 
+
+	}
+
+}
